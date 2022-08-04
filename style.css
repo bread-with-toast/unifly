@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "font";
+    src: url("SourceSansPro-Regular.ttf");
+}
+
+body {
+    font-family: "font";
+    background-color: aliceblue;
+}
+
+#unicorn {
+    box-shadow: 10px 10px 10px gray;
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#butterfly {
+    box-shadow: 10px 10px 10px gray;
+    background-color: gold;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#head {
+    box-shadow: 10px 10px 10px gray;
+    background-color: rgb(255, 32, 203);
+    border-radius: 10px;
+    color: white
+}
+
+button {
+    padding: 10px;
+    background-color:rgb(255, 32, 203);
+    color:white;
+    border-radius: 8px;
+    border-style: none;
+}
+
+button:hover {
+    background-color:rgb(193, 45, 158);
+}
